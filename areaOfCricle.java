@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import java.util.Scanner;
 
 public class areaOfCricle {
@@ -14,8 +14,7 @@ public class areaOfCricle {
 
 
 
-=======
-import java.util.Scanner;
+
 
 public class areaOfCricle {
     public static void main(String[] args) {
@@ -30,4 +29,3 @@ public class areaOfCricle {
 
 
 
->>>>>>> e3617af (A start)
