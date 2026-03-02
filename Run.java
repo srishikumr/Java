@@ -13,3 +13,4 @@ class OnlineExam {
             System.out.println("Student passed the exam.");
         }
     }
+}
