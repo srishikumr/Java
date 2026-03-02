@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 class MinimumMarksException extends Exception {
     public MinimumMarksException(String message) {
         super(message);
@@ -24,12 +24,7 @@ public class runNow {
             System.out.println(e.getMessage());
         }
     }
-=======
-class MinimumMarksException extends Exception {
-    public MinimumMarksException(String message) {
-        super(message);
-    }
-}
+
 
 class OnlineExam {
     public static void validateMarks(int marks) throws MinimumMarksException {
@@ -39,16 +34,4 @@ class OnlineExam {
         System.out.println("Passed");
     }
 }
-
-public class runNow {
-    public static void main(String[] args) {
-
-        try {
-            OnlineExam.validateMarks(35);
-        }
-        catch (MinimumMarksException e) {
-            System.out.println(e.getMessage());
-        }
-    }
->>>>>>> e3617af (A start)
 }
