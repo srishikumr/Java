@@ -8,9 +8,12 @@ public class Main {
         Item item1 = new Item ( "apples", 20);
         Item item2 = new Item ( "oranges?", 34);
 
+        Fruit fruit = new Fruit("Fuji", "apple", 4);
+
 
         inventory.addItem(item1);
         inventory.addItem(item2);
+        inventory.addItem(fruit);
 
         inventory.displayInventory();
 

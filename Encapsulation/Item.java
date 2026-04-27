@@ -9,6 +9,10 @@ public class Item {
         this.quantity = quantity;
     }
 
+    public String getType() {
+    return null;
+}
+
     public String getName(){
         return name;
     }
@@ -17,4 +21,8 @@ public class Item {
     }
 
 
+    @Override
+    public String toString(){
+        return "Item: " + name +  ",Quantity: " + quantity;
+    }
 }
