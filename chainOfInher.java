@@ -1,0 +1,27 @@
+class Animal {
+    void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking...");
+    }
+}
+
+// Multilevel derivation
+class Puppy extends Dog {
+    void weep() {
+        System.out.println("Weeping...");
+    }
+}
+
+public class chainOfInher{
+    public static void main(String[] args) {
+        Puppy p  = new Puppy();
+
+        p.eat();
+
+    }
+}
